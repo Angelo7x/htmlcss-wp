@@ -68,15 +68,11 @@ li {
 }
 
 .col-left {
-    background-color: #abcfe7;
-    height: 350px;
     width: 25%;
     margin-top: 20px;
 }
 
 .col-center {
-    background-color: #abcfe7;
-    height: 350px;
     width: calc(50% - 40px);
     margin-top: 20px;
     margin-left: 20px;
@@ -85,26 +81,33 @@ li {
 }
 
 .col-right {
-    background-color: #abcfe7;
-    height: 350px;
     width: 25%;
     margin-top: 20px;
 }
 
 .top-bar {
-    height: 100px;
-    background-color: #abcfe7;
     width: 100%;
     margin-top: 20px;
 }
 
-.foot {
-    height: 75px;
-    background-color: #8601fe;
-    width: 100%;
-    margin-top: 10px;
+h1 {
+    font-size: 50px;
 }
 
-.background-blu {
-    background-color: #0185ff;
+.section-2 {
+    margin-top: 20px;
+}
+
+h3 {
+    margin: 20px 0px;
+}
+
+.foot {
+    width: 100%;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.redheart {
+    color: red;
 }

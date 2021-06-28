@@ -126,7 +126,7 @@ h3 {
     background-image: url(../img/img-3.jpg);
     width: 100%;
     height: 300px;
-    background-position: center;
+    transform: scale(1.2);
     background-size: cover;
 }
 .foot {

@@ -108,26 +108,29 @@ h3 {
 
 .col-img1 {
     background-image: url(../img/img-1.jpg);
-    width: 100%;
+    width: 300px;
     height: 300px;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .col-img2 {
     background-image: url(../img/banner-2.jpg);
     width: 100%;
     height: 300px;
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .col-img3 {
     background-image: url(../img/img-3.jpg);
     width: 100%;
     height: 300px;
-    transform: scale(1.2);
     background-size: cover;
+    background-position: center;
+    position: relative;
 }
 .foot {
     width: 100%;
@@ -137,5 +140,17 @@ h3 {
 
 .redheart {
     color: red;
+}
+
+.overlay {
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
 }
 
